@@ -15,7 +15,7 @@ export KBUILD_BUILD_VERSION="1"
 
 if ! [ -d "${TC_DIR}" ]; then
 echo "Clang not found! Cloning to ${TC_DIR}..."
-if ! git clone --depth=1 https://gitlab.com/vermouth/clang-r498229b.git ${TC_DIR}; then
+if ! git clone --depth=1 https://gitlab.com/vermouth/android_prebuilts_clang_host_linux-x86_clang-r498229b.git ${TC_DIR}; then
 echo "Cloning failed! Aborting..."
 exit 1
 fi
