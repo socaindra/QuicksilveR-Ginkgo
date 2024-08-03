@@ -129,3 +129,4 @@ kernel/configs/android-*.cfg
 out/
 *.zip
 error.log
+log.txt
